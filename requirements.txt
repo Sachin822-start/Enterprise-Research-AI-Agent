@@ -1,0 +1,14 @@
+langchain
+langgraph
+langchain-community
+langchain-ollama
+chromadb
+sentence-transformers
+tavily-python
+beautifulsoup4
+requests
+python-dotenv
+streamlit
+numpy
+scikit-learn
+torchvision
