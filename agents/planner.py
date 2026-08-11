@@ -3,7 +3,7 @@ from models.state import ResearchState
 import json
 
 llm = ChatOllama(
-    model="llama3.2:1b",   # change to 1b if you don't have 3b
+    model="llama3.2:3b",   # change to 1b if you don't have 3b
     temperature=0
 )
 

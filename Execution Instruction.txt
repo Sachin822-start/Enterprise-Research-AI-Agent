@@ -19,7 +19,7 @@ ollama --version
 After installing Ollama, open a terminal and execute:
 
 ```bash
-ollama pull llama3.2:1b
+ollama pull llama3.2:3b
 ```
 
 Verify the model:
@@ -32,7 +32,7 @@ Expected Output:
 
 ```
 NAME
-llama3.2:1b
+llama3.2:3b
 ```
 
 
@@ -67,7 +67,7 @@ Create a `.env` file in the project root directory.
 Example:
 
 ```env
-OLLAMA_MODEL=llama3.2:1b
+OLLAMA_MODEL=llama3.2:3b
 
 TAVILY_API_KEY="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"
 
@@ -139,7 +139,7 @@ http://localhost:8501
 ### Ollama model not found
 
 ```bash
-ollama pull llama3.2:1b
+ollama pull llama3.2:3b
 ```
 
 ---
